@@ -1,0 +1,43 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bananas</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+
+  <!-- For Test Results -->
+  <link rel="stylesheet" href="/stylesheets/mocha.css" />
+
+  <!-- Load in all the project's js -->
+  <script src="/javascripts/jquery.js"></script>
+  <script src="/javascripts/underscore.js"></script>
+  <script src="/javascripts/backbone.js"></script>
+  <script src="/javascripts/app.js"></script> 
+
+</head>
+<body>
+  
+<div id='main' class='container'>
+
+  <div id='monkeys' class=''>
+    <form id='monkeyform'>
+      <input id='monkey_name_input' type="text" placeholder='monkey name'/>
+      <button id='monkey_add_button' class='button' type='submit'>Add Monkey</button>
+    </form>
+    <ul id='monkey_list'>
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- In browser testing js -->
+  <div id="mocha"></div>
+  <!-- Load Libraries -->
+  <script src="/javascripts/mocha.js"></script> 
+  <script src="/javascripts/should.js"></script> 
+
+  <!-- Load in your tests -->
+  <script src="/spec/test.js"></script> 
+</body>
+</html>
+

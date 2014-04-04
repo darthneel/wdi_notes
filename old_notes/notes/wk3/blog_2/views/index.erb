@@ -1,0 +1,21 @@
+<div id="main_container">
+<h1 class="main_heading">Posts</h1>
+  <ul id="posts">
+  <% @posts.each do |post| %>
+    <li class="post">
+      <h2 class="post_title"><%= post['title'] %></h2>
+      <p class="post_body"><%= post['body'] %></p>
+    </li>
+  <% end %>
+  <form action="/create" method="POST" class="post_new">
+    <p>Title:<br>
+      <input type="text" name="title" />
+    </p>
+    <p>
+    Body:<br>
+      <textarea name="body"></textarea>
+    </p>
+
+    <input type="submit" value="Post" />
+  </form>
+</div>

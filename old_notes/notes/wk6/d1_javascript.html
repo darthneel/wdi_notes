@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<script>
+
+console.log("hello");
+
+//main context
+
+// var blah = (function context_a(thing){
+//   var x = 3;  //makes the variable local
+//   console.log(x);  
+//   console.log(thing)
+//   return [x,thing];
+// }("blah"));
+
+// console.log(x)
+
+
+Obj = function() {
+  var talk = function talk(){
+    //code goes here
+  }
+  this.talk = talk 
+
+  this.speak = function() {
+    this.talk()
+  }
+
+  this.yell = function() {
+    talk()
+  }
+}
+obj = new Obj()
+other_obj = {
+  speak: obj.speak,
+  yell: obj.yell
+}
+
+obj.talk = function()
+
+
+</script>
+</body>
+</html>

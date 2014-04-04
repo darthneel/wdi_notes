@@ -1,0 +1,7 @@
+.nav.bar {
+	list-style-type: none;
+}
+
+.nav.item {
+	display: inline;
+}

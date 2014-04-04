@@ -1,0 +1,28 @@
+<div class="calc_container">
+  <h1 class="calc_heading"><a href="/">calculator</a></h1>
+  <form action="/" type="POST">
+    <input 
+      name="equation"
+      type="text" 
+      placeholder="equation"
+      class="calc_display" 
+      <% if @answer %>
+      value = ""
+      <% elsif @equation != "" %>
+      value="<%= @equation %>" 
+      <% end %>
+      />
+      <% if @operation == "" %>
+        <%= erb :first_num %>
+      <% else %>
+        <%= erb :second_num %>
+      <% end %>
+    <div>
+    </div>
+  </form>
+  <% if @answer %>
+    <div class="calc_answer">
+      Answer: <%= @answer %>
+    </div>
+  <% end %>
+</div>
