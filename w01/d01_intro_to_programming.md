@@ -1,0 +1,1 @@
+![Drawing on the Desk](./images/d1_outline.jpg)
