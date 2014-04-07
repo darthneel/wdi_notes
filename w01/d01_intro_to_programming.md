@@ -16,24 +16,17 @@
 
 DEMO:
 
-- Flowchart a small task (i.e. drawing a square on the board)
+- Flowchart a small task (i.e. organize a closet)
 
 - Use flowchart to write (pseudo)code of the program
 
 - "evaluate" the program line-by-line. (i.e. role-play the computer)
 
-###draw_square_on_board.program
+###organize_closet.program
 ```
-  if (I.haveMarker?)
+# You have a bunch of random garments on the floor.
+# They must be added to the closet by color.
+# The closet has three color sections: red, white, blue
 
-  else
-    bucket.find
-    bucket.remove(marker)
-  end
 
-  bucket.add marker
-
-  if (bucket.markers is 2) 
-    bucket.empty
-  end
 ```
