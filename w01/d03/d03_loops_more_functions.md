@@ -20,7 +20,7 @@ end
 
 #### Nested Loops
 
-![Nested Loop](images/nested_loops.gif)
+![Nested Loop](../images/nested_loops.gif)
 
 ```
 for i in (1..10)

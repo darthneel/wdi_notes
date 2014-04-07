@@ -1,4 +1,4 @@
-![Drawing on the Desk](./images/d1_outline.jpg)
+![Drawing on the Desk](../images/d1_outline.jpg)
 
 ##Mental Models
 
