@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NaiveUserModel</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="body">
+
+</div>
+
+<%# yield %>
+
+<script id="users_list_template" type="text/x-handlebars-template">
+	<ul class="users">
+	
+	</ul>
+</script>
+
+<script id="nav_template" type="text/x-handlebars-template">
+
+	<ul class="nav container">
+		<li class="nav item">
+			<a href="#" class="users_link">users</a>
+		</li>
+	</ul>
+
+</script>
+<script id="user_template" type="text/x-handlebars-template" >
+		<li class="user">
+			<h1>{{name}}</h1>
+			<p>{{bio}}</p>
+			<p>
+				<a href="#{{id}}">edit</a>
+			</p>
+		</li>
+</script>
+
+</body>
+</html>

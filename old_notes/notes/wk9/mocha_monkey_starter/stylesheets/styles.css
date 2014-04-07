@@ -1,0 +1,25 @@
+body {
+  background-color: lightgreen;
+}
+
+.monkeys {
+  font-size: 1.5em;
+}
+
+.monkey {
+  background-color: lightyellow;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin: 0.25em;
+  width: 50%;
+  box-shadow: .1em .1em darkgreen;
+}
+
+.destroy_button {
+  border-radius: 50%;
+  background-color: tan;
+}
+
+.name_input {
+   box-shadow: .01em .01em green;
+}
