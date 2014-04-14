@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra/reloader'
+
 
 def parse_equation(equation_string)
   equation_array = equation_string.split(" ")
